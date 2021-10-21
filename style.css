@@ -74,12 +74,12 @@ nav ul li a {
     text-align: center;
     border-radius: 8px;
 }
+#m {
+    text-align: left;
+}
 .line-1 {
     height: 2px;
     background: #1F3723;
-}
-#m {
-    text-align: left;
 }
 #pic {
     background-color: #90A090;
