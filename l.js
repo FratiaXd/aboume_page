@@ -1,1 +1,7 @@
-let font-incre = document.querySelector('.font-inc');
+let f_i = document.getElementById('font-inc');
+let f = document.getElementById('font');
+let f_m = document.getElementById('font-min');
+
+function increaseFont(){
+    
+}
