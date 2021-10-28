@@ -1,0 +1,1 @@
+let font-incre = document.querySelector('.font-inc');
