@@ -5,3 +5,15 @@ let f_m = document.getElementById('font-min');
 function increaseFont(){
     
 }
+
+function decreaseFont(){
+    
+}
+
+function resetFont(){
+    
+}
+
+function increaseFont(){
+    
+}
