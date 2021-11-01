@@ -106,3 +106,12 @@ footer {
     font-size: x-large;
     text-decoration: none;
 }
+#incre {
+    font-size: x-large;
+}
+#decre {
+    font-size: small;
+}
+#reset {
+    font-size: 1.15vw;
+}
