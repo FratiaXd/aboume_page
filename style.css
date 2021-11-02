@@ -14,11 +14,11 @@ header {
     max-width: 450px;
     height: auto;
 }
-nav {
+#navig {
     background-color: #1F3723;
     border-radius: 5px;
 }
-nav ul {
+#navig ul {
     list-style-type: none;
     text-align: left;
     margin: 1px;
@@ -26,10 +26,10 @@ nav ul {
     padding: 1%;
     padding-top: 0.9%;
 }
-nav ul li {
+#navig ul li {
     display: inline;
 }
-nav ul li a {
+#navig ul li a {
     text-decoration: none;
     margin-left: 1.5%;
     margin-right: 1.5%;
@@ -105,6 +105,9 @@ footer {
 #controls a {
     font-size: x-large;
     text-decoration: none;
+}
+.custom a {
+    margin-left: 15px;
 }
 #incre {
     font-size: x-large;

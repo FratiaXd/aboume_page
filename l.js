@@ -1,8 +1,10 @@
-let f_i = document.getElementById('font-inc');
-let f = document.getElementById('font');
-let f_m = document.getElementById('font-min');
-let blue_b = document.getElementById('blue');
-let grey_b = document.getElementById('grey');
+let f_i = document.querySelector('#font-inc');
+let f = document.querySelector('#font');
+let f_m = document.querySelector('#font-min');
+let blue_b = document.querySelector('#blue');
+let grey_b = document.querySelector('#grey');
+let header_c = document.querySelector('#controls');
+let navi = document.querySelector('#navig');
 
 function increaseFont(){
     f_i.setAttribute('id', 'incre')
