@@ -109,6 +109,12 @@ footer {
 .custom a {
     margin-left: 15px;
 }
+#make_grey {
+    background-color: grey;
+}
+#make_blue {
+    background-color: lightslategray;
+}
 #incre {
     font-size: x-large;
 }
