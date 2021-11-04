@@ -15,7 +15,7 @@ function grey(){
 }
 
 if (localStorage.fontSize == 'grey'){
-    navi.setAttribute('id', 'make_grey');
+    header_c.setAttribute('id', 'make_grey');
 }
 //blue
 blue_b.addEventListener('click', blue);
@@ -26,7 +26,7 @@ function blue(){
 }
 
 if (localStorage.fontSize == 'blue'){
-    navi.setAttribute('id', 'make_blue');
+    header_c.setAttribute('id', 'make_blue');
 }
 //increase
 f_i.addEventListener('click', increaseFont);
