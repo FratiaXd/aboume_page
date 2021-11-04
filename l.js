@@ -10,33 +10,33 @@ let navi = document.querySelector('#navig');
 grey_b.addEventListener('click', grey);
 
 function grey(){
-    grey_b.setAttribute('id', 'make_grey')
+    header_c.setAttribute('id', 'make_grey')
 }
 
 
 blue_b.addEventListener('click', blue);
 
 function blue(){
-    blue_b.setAttribute('id', 'make_blue')
+    header_c.setAttribute('id', 'make_blue')
 }
 
 
 f_i.addEventListener('click', increaseFont);
 
 function increaseFont(){
-    f_i.setAttribute('id', 'incre')
+    navi.setAttribute('id', 'incre')
 }
 
 
 f.addEventListener('click', decreaseFont);
 
 function decreaseFont(){
-    f.setAttribute('id', 'decre')
+    navi.setAttribute('id', 'decre')
 }
 
 
 f_m.addEventListener('click', resetFont);
 
 function resetFont(){
-    f_m.setAttribute('id', 'reset')
+    navi.setAttribute('id', 'navig')
 }
