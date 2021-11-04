@@ -27,25 +27,16 @@ function increaseFont(){
     f_i.setAttribute('id', 'incre')
 }
 
+
+f.addEventListener('click', decreaseFont);
+
 function decreaseFont(){
     f.setAttribute('id', 'decre')
 }
 
+
+f_m.addEventListener('click', resetFont);
+
 function resetFont(){
     f_m.setAttribute('id', 'reset')
 }
-
-function blue(){
-    blue_b.setAttribute('id', 'make_blue')
-}
-
-function grey(){
-    grey_b.setAttribute('id', 'make_grey')
-}
-
-
-f_i.addEventListener('click', increaseFont);
-f.addEventListener('click', decreaseFont);
-f_m.addEventListener('click', resetFont);
-blue_b.addEventListener('click', blue);
-grey_b.addEventListener('click', grey);
