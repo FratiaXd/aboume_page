@@ -58,3 +58,5 @@ function resetFont(){
 if (localStorage.fontSize == 'normal'){
     navi.setAttribute('id', 'navig');
 }
+
+//drop down menu
