@@ -29,7 +29,7 @@ avatar.addEventListener('click', ()=>{
 ntu_im.animate(myAnimation, myTimings);
 
 function increase_pic(){
-    inc_w++
+    inc_w++;
     avatar.style.width = inc_w + 'px';
 };
 
